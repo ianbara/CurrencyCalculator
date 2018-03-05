@@ -1,0 +1,28 @@
+﻿@using CurrencyCalculator.Models;
+
+@model List<CurrencyConversion>
+
+
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="https://intloveincorporated.blob.core.windows.net/contentimages/main/holiday-hat-sunglasses-money.jpg">
+    </div>
+    <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Conversion Rates<i class="material-icons right">more_vert</i></span>
+        <p><a href="#">View Rates</a></p>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Rates<i class="material-icons right">close</i></span>
+        <table>
+            @foreach (var rate in Model)
+            {
+                <tr>
+                    <td>
+                        @rate.CurrencyTypeTo.ToString()
+                    </td>
+                    <td>@rate.Rate</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model  CurrencyConvertor.Web.ViewModels.CurrencyToolViewModel
+@{
+    ViewBag.Title = "_CurrencyToolConvertor";
+}
+
+<h5 class="center">Convert Your Currency</h5>
+<div class="form-group">
+    <label for="InputAmount">Amount of GBP to convert from</label>
+    @Html.TextBoxFor(m => m.InputAmount, new { @Class = "form-control" })
+    @Html.ValidationMessageFor(m => m.InputAmount)
+
+</div>
+<div class="form-group">
+    <label for="CurrencyTypeTo">Convert To</label>
+    @Html.DropDownList("CurrencyTypeTo", (IEnumerable<SelectListItem>)Model.CurrencyTypesList, Model.CurrencyTypeTo.ToString(), new { @class = "form-control" })
+    @Html.HiddenFor(m => m.CurrencyTypeFrom)
+</div>
+<div id="current-rate-container">
+    @Html.Partial("_CurrentRate", Model.CurrentRate)
+</div>
+
+<div id="output-container" class="form-group">
+    @Html.Partial("_CalculationResult", Model.OutputAmount)
+</div>
+
+

@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+
+
+        <div class="container">
+            <div class="row">
+                <div id="currency-tool-container" class="col l6 s12">
+                    @Html.Action("CurrencyConvertorTool")
+
+                </div>
+                <div id="currency-rates-container" class="col l4 offset-l2 s12">
+                    @Html.Action("Rates")
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('select').material_select();
+            calculateRate();
+        });
+
+        $(document).on("keyup", "#InputAmount", function () {
+            calculateRate()
+        });
+        $(document).on("change", "select", function () {
+            getCurrentRateDisplay();
+            calculateRate();
+        });
+
+        function getCurrentRateDisplay() {
+
+            if ($('#CurrencyTypeTo').val() == "") {
+                return;
+            }
+
+            var jsonObject = {
+                "currencyType": $('#CurrencyTypeTo').val()
+            };
+              $.ajax({
+                url: "@Url.Action("CurrentRate")",
+                type: "POST",
+                data: JSON.stringify(jsonObject),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                error: function (response) {
+                    $('#current-rate-container').html(response.responseText);
+            },
+                success: function (response) {
+                    alert(response);
+                }
+            });
+        }
+
+        function calculateRate() {
+            var amount = $('#InputAmount').val();
+            if (amount == 0) {
+                $('#outputResult').html(0);
+                return;
+            }
+            var typeOfConvertion = $('#CurrencyTypeTo').val();
+
+            var jsonObject = {
+                "InputAmount": amount,
+                "CurrencyTypeFrom": "GBP",
+                "CurrencyTypeTo": typeOfConvertion
+            };
+
+
+            $.ajax({
+                url: "@Url.Action("CalculateAmount")",
+                type: "POST",
+                data: JSON.stringify(jsonObject),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                error: function (response) {
+                    $('#output-container').html(response.responseText);
+                    $('select').material_select();
+            },
+                success: function (response) {
+                    alert(response);
+                }
+            });
+
+        }
+
+
+    </script>
+}

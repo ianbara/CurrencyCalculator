@@ -1,0 +1,5 @@
+﻿@model decimal
+
+<label for="OutputAmount">Converts To</label>
+@*@Html.TextBoxFor(m => m, new { @Class = "form-control", @readonly = "readonly" })*@
+<h3 id="outputResult">£@Model.ToString("0.00")</h3>

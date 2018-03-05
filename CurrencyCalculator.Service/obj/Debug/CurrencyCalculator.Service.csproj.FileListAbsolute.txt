@@ -1,0 +1,8 @@
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\bin\Debug\CurrencyCalculator.Service.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\bin\Debug\CurrencyCalculator.Service.pdb
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\bin\Debug\CurrencyCalculator.Models.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\bin\Debug\CurrencyCalculator.Models.pdb
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\obj\Debug\CurrencyCalculator.Service.csprojResolveAssemblyReference.cache
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\obj\Debug\CurrencyCalculator.Service.csproj.CoreCompileInputs.cache
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\obj\Debug\CurrencyCalculator.Service.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Service\obj\Debug\CurrencyCalculator.Service.pdb

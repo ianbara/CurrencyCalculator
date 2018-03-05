@@ -1,0 +1,17 @@
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Tests.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Tests.pdb
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Models.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Service.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Models.pdb
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\CurrencyCalculator.Service.pdb
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\obj\Debug\CurrencyCalculator.Tests.csprojResolveAssemblyReference.cache
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\obj\Debug\CurrencyCalculator.Tests.csproj.CoreCompileInputs.cache
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\obj\Debug\CurrencyCalculator.Tests.dll
+C:\Projects_2018\CurrencyTechTest\CurrencyCalculator\CurrencyCalculator.Tests\obj\Debug\CurrencyCalculator.Tests.pdb
